@@ -1,0 +1,6 @@
+{
+  "name": "RoomsForUse - HotelPro",
+  "description": "Comprehensive MERN Hotel Management System with customer bookings, cancellations, and administrator room/user management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

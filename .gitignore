@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+*/dist/
+dist-ssr/
+build/
+
+# Environment variables & secrets (CRITICAL: Do not commit real credentials)
+.env
+.env.*
+!.env.example
+!*/.env.example
+*.env
+server/.env
+client/.env
+
+# Tooling and IDE
+.aistudio/
+.gemini/
+.vscode/
+.idea/
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
