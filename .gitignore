@@ -1,14 +1,18 @@
 # Dependencies
 node_modules/
 */node_modules/
+client/node_modules/
+server/node_modules/
 
 # Production builds
 dist/
 */dist/
 dist-ssr/
 build/
+client/dist/
+server/dist/
 
-# Environment variables & secrets (CRITICAL: Do not commit real credentials)
+# Environment variables & secrets (CRITICAL: NEVER commit real credentials)
 .env
 .env.*
 !.env.example
@@ -19,6 +23,7 @@ client/.env
 
 # Tooling and IDE
 .aistudio/
+client/.aistudio/
 .gemini/
 .vscode/
 .idea/
